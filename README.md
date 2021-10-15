@@ -5,7 +5,7 @@ Dada la naturaleza de resolución remota de los siguientes ejercicios es muy sen
 
 > Nota2: lo ideal es que el código lo escriban directamente en los IDEs online que se linkean, haciendo forks
 
-# Transportes Barri Allen
+# Transportes Barry Allen
 
 ![transportes Barry Allen](./flash.png)
 
