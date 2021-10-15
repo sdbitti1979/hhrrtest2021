@@ -3,13 +3,11 @@ Dada la naturaleza de resolución remota de los siguientes ejercicios es muy sen
 
 > Nota: las partes que dicen "**Extra**" son actividades que si bien no son obligatorias los aspirantes pueden completar para demostrar que poseen mayores conocimientos
 
-> Nota2: lo ideal es que el código lo escriban directamente en los IDEs online que se linkean, haciendo forks
-
 # Transportes Barry Allen
 
 ![transportes Barry Allen](./flash.png)
 
-_Hemos ingresado a una nueva y pujante empresa orientada a la logística que es un flash. La misma se encarga de la realización de transporte de mercancias por todo el mundo y está en pleno proceso de digitalización de sus actividades. Somos el rookie así que tenemos que labrarnos una reputación._
+_Hemos ingresado a una nueva y pujante empresa orientada a la logística que es un flash. La misma se encarga de la realización de transportes de mercancias por todo el mundo y está en pleno proceso de digitalización de sus actividades. Somos el rookie así que tenemos que labrarnos una reputación._
 
 Nuestra primera tarea consiste en escribir un query sql que alimente un reporte que permita a la oficina central conocer todos los viajes realizados. Se espera que este reporte muestre, por cada viaje, la cantidad de paquetes transportados y el total de dinero de sus tarifas. Los resultados deben venir ordenados del mas nuevo al mas viejo y ademas deben excluir los viajes con mas de 3 paquetes. Nota: solo deben escribir el query, no hacer el reporte.
 
