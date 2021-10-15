@@ -13,7 +13,7 @@ Nuestra primera tarea consiste en escribir un query sql que alimente un reporte 
 
 > https://www.mycompiler.io/view/1bXLimu (van a necesitar hacer un fork para editarlo)
 
-Al día siguiente notamos que el equipo backend se encuentra algo atareado así que decidimos hacer gala de nuestros conocimientos en PHP y ayudarlos. Nos cuentan que necesitan ayuda con el buscador de destinos. Estos destinos se encuentran organizados como una jerarquía en un árbol y dado que los mismo vienen de un servicio externo que siempre se encuentran cambiando no pueden contar con que el árbol tenga siempre la misma cantidad de niveles y nos piden si podemos implementar la función que necesitan para buscar en el árbol. La misma recibe como argumentos el árbol con los destinos y el texto a buscar (en cualquier parte del nombre).
+Al día siguiente notamos que el equipo backend se encuentra algo atareado así que decidimos hacer gala de nuestros conocimientos en PHP y ayudarlos. Nos cuentan que necesitan ayuda con el buscador de destinos. Estos destinos se encuentran organizados como una jerarquía en un árbol y dado que los mismos vienen de un servicio externo que siempre se encuentran cambiando, no pueden contar con que el árbol tenga siempre la misma cantidad de niveles y nos piden si podemos implementar la función que necesitan para buscar en el árbol. La misma recibe como argumentos, el árbol con los destinos y el texto a buscar (en cualquier parte del nombre).
 
 > https://phpsandbox.io/n/hhrr-search-into-tree-gbizl (van a necesitar hacer un fork para editarlo)
 
@@ -65,7 +65,7 @@ A nosotros nos toca modelar estas entidades utilizando correctamente los princip
 
 
 ```
-function getDistanceBetweenPoints($latitude1, $longitude1, $latitude2, $longitude2) {
+function getDistanceBetweenPoints(float $latitude1, float $longitude1, float $latitude2, float $longitude2) : float {
     $theta = $longitude1 - $longitude2; 
     $distance = (sin(deg2rad($latitude1)) * sin(deg2rad($latitude2))) + (cos(deg2rad($latitude1)) * cos(deg2rad($latitude2)) * cos(deg2rad($theta))); 
     $distance = acos($distance); 
