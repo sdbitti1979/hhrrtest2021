@@ -1,5 +1,5 @@
 ### ANTES DE EMPEZAR: 
-Dada la naturaleza de resolución remota de los siguientes ejercicios es muy sencillo para el postulante realizar trampa a la hora de resolverlos, pero realmente recomendamos encararlos con honestidad, ya que la mentira tiene patas cortas y aunque pasen la evalucación técnica fraudulentamente, el día de mañana van a tener que demostrar sus conocimientos en un entorno real **donde solo cuentan los conocimientos reales**. Sin mas que decir, buena suerte. Ivan.
+Dada la naturaleza de resolución remota de los siguientes ejercicios es muy sencillo para el postulante realizar trampa a la hora de resolverlos, pero realmente recomendamos encararlos con honestidad, ya que la mentira tiene patas cortas y aunque pasen la evaluación técnica fraudulentamente, el día de mañana van a tener que demostrar sus conocimientos en un entorno real **donde solo cuentan los conocimientos reales**. Sin mas que decir, buena suerte. Ivan.
 
 > Nota: las partes que dicen "**Extra**" son cosas extras que si bien no son obligatorias los aspirantes pueden completar para demostrar que poseen mayores conocimientos
 
@@ -15,7 +15,7 @@ Nuestra primera tarea consiste en escribir un query sql que alimente un reporte 
 
 > https://www.mycompiler.io/view/1bXLimu (van a necesitar hacer un fork para editarlo)
 
-Al día siguiente notamos que el equipo backend se encuentra algo atareado así que decidimos hacer gala de nuestros conocimientos en PHP y ayudarlos. Nos cuentan que necesitan ayuda con el buscador de destinos. Estos destinos se encuentran organizados como una gerarquia en un árbol y dado que los mismo vienen de un servicio externo que siempre se encuentran cambiando no pueden contar con que el arbol tenga siempre la misma cantidad de niveles y nos piden si podemos implementar la función que necesitan para buscar en el arbol. La misma recibe como argumentos el arbol con los destinos y el texto a buscar (en cualquier parte del nombre).
+Al día siguiente notamos que el equipo backend se encuentra algo atareado así que decidimos hacer gala de nuestros conocimientos en PHP y ayudarlos. Nos cuentan que necesitan ayuda con el buscador de destinos. Estos destinos se encuentran organizados como una jerarquía en un árbol y dado que los mismo vienen de un servicio externo que siempre se encuentran cambiando no pueden contar con que el árbol tenga siempre la misma cantidad de niveles y nos piden si podemos implementar la función que necesitan para buscar en el árbol. La misma recibe como argumentos el árbol con los destinos y el texto a buscar (en cualquier parte del nombre).
 
 > https://phpsandbox.io/n/hhrr-search-into-tree-gbizl (van a necesitar hacer un fork para editarlo)
 
@@ -25,7 +25,7 @@ Debido a nuestro buen trabajo el CTO de la empresa decide poner a prueba nuestra
 
 > https://replit.com/@IvanStadius/HHRR-Declaratividad#index.js (van a necesitar hacer un fork para editarlo)
 
-Ahora si, habiendo demostrado nuestra valia, se nos permite jugar con los chicos grandes. Vamos a participar del desarrollo  del core de la aplicación. Las reglas de negocio que nos importan son las siguientes:
+Ahora sí, habiendo demostrado nuestra valía, se nos permite jugar con los chicos grandes. Vamos a participar del desarrollo  del core de la aplicación. Las reglas de negocio que nos importan son las siguientes:
 
 * Existe la entidad camión, estos tienen un modelo y una patente.
 * Cada modelo soporta un volumen(m3) y un peso máximo(kg)
@@ -43,11 +43,11 @@ A nosotros nos toca modelar estas entidades utilizando correctamente los princip
     * $4 * Kg x KM recorrido
     * $10 * M3(volumen) * KM recorrido
 * Si el viaje es Devolución se cobra una tarifa plana de $1000
-* Para calcular los kilometros recorridos se calcula la distancia en linea recta entre las coordenadas de origen y de destino. Para hacer eso hay muchas funciones en internet, dejamos una que pueden usar al final de este documento.
+* Para calcular los kilómetros recorridos se calcula la distancia en linea recta entre las coordenadas de origen y de destino. Para hacer eso hay muchas funciones en internet, dejamos una que pueden usar al final de este documento.
 
 > Este ejercicio puede desarrolarse en https://phpsandbox.io o en el ide/entorno de su preferencia
 
-> **Extra**: Desarrollar algunos unit test, no es necesario tener una gran covertura, solo demostrar que se tienen los conocimientos.
+> **Extra**: Desarrollar algunos unit test, no es necesario tener una gran cobertura, solo demostrar que se tienen los conocimientos.
 
 > **Extra**: Utilizar php tipado y phpdoc para documentar
 
@@ -63,7 +63,7 @@ A nosotros nos toca modelar estas entidades utilizando correctamente los princip
 
 
 
-### Calculo de distancia
+### Cálculo de distancia
 
 
 ```
