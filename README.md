@@ -19,7 +19,7 @@ Al día siguiente notamos que el equipo backend se encuentra algo atareado así 
 
 > **Extra**: que en lugar de buscar por texto pueda recibir el criterio de búsqueda como función (función de orden superior)
 
-Debido a nuestro buen trabajo el CTO de la empresa decide poner a prueba nuestras habilidades en JS con un desafio peculiar. Se nos da un json que incluye las facturas emitidas y se nos pide calcular el total adeudado (de las facturas no pagadas) por tipo de cliente. Ja pan comido... peeeero no se nos permite utilizar bucles (for, while, do while) ni el método forEach. Tampoco ser permite utilizar recursividad, Gulp.
+Debido a nuestro buen trabajo el CTO de la empresa decide poner a prueba nuestras habilidades en JS con un desafio peculiar. Se nos da un json que incluye las facturas emitidas y se nos pide calcular el total adeudado (de las facturas no pagadas) por tipo de cliente. Ja pan comido... peeeero no se nos permite utilizar bucles (for, while, do while) ni el método forEach. Tampoco se permite utilizar recursividad, Gulp.
 
 > https://replit.com/@IvanStadius/HHRR-Declaratividad#index.js (van a necesitar hacer un fork para editarlo)
 
@@ -43,11 +43,13 @@ A nosotros nos toca modelar estas entidades utilizando correctamente los princip
 * Si el viaje es Devolución se cobra una tarifa plana de $1000
 * Para calcular los kilómetros recorridos se calcula la distancia en linea recta entre las coordenadas de origen y de destino. Para hacer eso hay muchas funciones en internet, dejamos una que pueden usar al final de este documento.
 
+OBLIGATORIO: Utilizar php tipado, en los metodos. Tanto para los parámetros como para los valores devueltos.
+
 > Este ejercicio puede desarrolarse en https://phpsandbox.io o en el ide/entorno de su preferencia
 
 > **Extra**: Desarrollar algunos unit test, no es necesario tener una gran cobertura, solo demostrar que se tienen los conocimientos.
 
-> **Extra**: Utilizar php tipado y phpdoc para documentar
+> **Extra**:  Utilizar phpdoc para documentar
 
 > **Extra**: Crear diagrama UML de clases
 
