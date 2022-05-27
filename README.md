@@ -19,7 +19,7 @@ Al día siguiente notamos que el equipo backend se encuentra algo atareado así 
 
 > **Extra**: que en lugar de buscar por texto pueda recibir el criterio de búsqueda como función (función de orden superior)
 
-Debido a nuestro buen trabajo el CTO de la empresa decide poner a prueba nuestras habilidades en JS con un desafio peculiar. Se nos da un json que incluye las facturas emitidas y se nos pide calcular el total adeudado (de las facturas no pagadas) por tipo de cliente. Ja pan comido... peeeero no se nos permite utilizar bucles (for, while, do while) ni el método forEach, Gulp.
+Debido a nuestro buen trabajo el CTO de la empresa decide poner a prueba nuestras habilidades en JS con un desafio peculiar. Se nos da un json que incluye las facturas emitidas y se nos pide calcular el total adeudado (de las facturas no pagadas) por tipo de cliente. Ja pan comido... peeeero no se nos permite utilizar bucles (for, while, do while) ni el método forEach. Tampoco ser permite utilizar recursividad, Gulp.
 
 > https://replit.com/@IvanStadius/HHRR-Declaratividad#index.js (van a necesitar hacer un fork para editarlo)
 
