@@ -1,7 +1,7 @@
 ### ANTES DE EMPEZAR: 
 Dada la naturaleza de resolución remota de los siguientes ejercicios es muy sencillo para el postulante realizar trampa a la hora de resolverlos, pero realmente recomendamos encararlos con honestidad, ya que la mentira tiene patas cortas y aunque pasen la evaluación técnica fraudulentamente, el día de mañana van a tener que demostrar sus conocimientos en un entorno real **donde solo cuentan los conocimientos reales**. Sin mas que decir, buena suerte. Ivan.
 
-> Nota: las partes que dicen "**Extra**" son actividades que si bien no son obligatorias los aspirantes pueden completar para demostrar que poseen mayores conocimientos
+> Nota: las partes que dicen "**Extra**" son actividades que si bien no son obligatorias los aspirantes pueden completar para demostrar que poseen mayores conocimientos y elevar las posibilidades de acceder al puesto.
 
 # Transportes Barry Allen
 
