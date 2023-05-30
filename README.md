@@ -51,7 +51,7 @@ OBLIGATORIO: Utilizar php tipado, en los metodos. Tanto para los parámetros com
 
 > **Extra**:  Utilizar phpdoc para documentar
 
-> **Extra**: Crear diagrama UML de clases
+> **Obligatorio**: Crear diagrama UML de clases
 
 ## Entrega
 * La entrega de la prueba técnica es por email (a la misma dirección desde el cual se envio el link a este repositorio) y el código puede estar en:
