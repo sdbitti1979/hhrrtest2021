@@ -28,7 +28,7 @@ Ahora sí, habiendo demostrado nuestra valía, se nos permite jugar con los chic
 * Existe la entidad camión, estos tienen un modelo y una patente.
 * Cada modelo soporta un volumen(m3) y un peso máximo(kg)
 * A los camiones se le puede asignar una única hoja de ruta a la vez.
-* Las hojas de ruta agrupan viajes u otras hojas de ruta osea tienen n viajes/hojas de rutas (puede tener una combinación).
+* Las hojas de ruta agrupan **viajes Y otras hojas de ruta** osea tienen n viajes/hojas de rutas (puede tener una combinación).
 * Existen tres tipos de viajes: Normales, Prioritarios, Devoluciones.
 * Los viajes tienen n paquetes, los paquetes tienen peso(kg), alto, ancho y largo(m).
 * Los viajes tienen un origen y un destino, estos origenes y destinos tienen dirección y coordenadas (latitud y longitud)
