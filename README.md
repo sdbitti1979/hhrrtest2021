@@ -43,6 +43,8 @@ A nosotros nos toca modelar estas entidades utilizando correctamente los princip
 * Si el viaje es Devolución se cobra una tarifa plana de $1000
 * Para calcular los kilómetros recorridos se calcula la distancia en linea recta entre las coordenadas de origen y de destino. Para hacer eso hay muchas funciones en internet, dejamos una que pueden usar al final de este documento.
 
+ESTE EJERCICIO NO REQUIERE CREAR PERSISTENCIA, ENDPOINTS, FRONT, NI USAR NINGÚN FRAMEWORK (AUNQUE ESTO ÚLTIMO NO ESTA PROHIBIDO TAMPOCO), EL OBJETIVO ES DEMOSTRAR SUS CONOCIMIENTOS EN ORIENTACIÓN A OBJETOS
+
 OBLIGATORIO: Utilizar php tipado, en los metodos. Tanto para los parámetros como para los valores devueltos.
 
 > Este ejercicio puede desarrolarse en https://phpsandbox.io o en el ide/entorno de su preferencia
