@@ -1,0 +1,106 @@
+@startuml
+
+' Interfaces
+interface ILugar {
+    +getNombre(): string
+    +getCoordenadas(): array
+}
+
+interface IViaje {
+    +mostrarInformacion(): void
+    +calcularCosto(): float
+    +calcularPesoTotal(): float
+    +calcularVolumenTotal(): float
+}
+
+' Clases abstractas
+abstract class Elemento {
+    -nombre: string
+    +__construct(nombre: string)
+    +mostrarInformacion(): void
+}
+
+' Clases concretas
+class Camion {
+    -modelo: ModeloCamion
+    -patente: string
+    -hojaDeRutaActual: HojaDeRuta
+    +asignarHojaDeRuta(HojaDeRuta hoja): void
+    +calcularCostoTotal(): float
+}
+
+class HojaDeRuta extends Elemento implements IViaje {
+    -elementos: array
+    +__construct(nombre: string, elementos: array)
+    +getElementos(): array
+    +calcularCosto(): float
+    +calcularPesoTotal(): float
+    +calcularVolumenTotal(): float
+}
+
+class ModeloCamion {
+    -nombre: string
+    -capacidadPeso: float
+    -capacidadVolumen: float
+}
+
+class Viaje extends Elemento implements IViaje {
+    -origen: Origen
+    -destino: Destino
+    -paquetes: array
+    +calcularCosto(): float
+    +calcularPesoTotal(): float
+    +calcularVolumenTotal(): float
+}
+
+class ViajeNormal extends Viaje {
+}
+
+class ViajePrioritario extends Viaje {
+}
+
+class ViajeDevolucion extends Viaje {
+}
+
+class Paquete {
+    -peso: float
+    -alto: float
+    -ancho: float
+    -largo: float
+    +calcularVolumen(): float
+}
+
+class Origen implements ILugar {
+    -direccion: string
+    -latitud: float
+    -longitud: float
+}
+
+class Destino implements ILugar {
+    -direccion: string
+    -latitud: float
+    -longitud: float
+}
+
+' Relaciones
+IViaje <|.. Elemento
+Elemento <|-- HojaDeRuta
+Elemento <|-- Viaje
+Viaje <|-- ViajeNormal
+Viaje <|-- ViajePrioritario
+Viaje <|-- ViajeDevolucion
+
+ILugar <|.. Origen
+ILugar <|.. Destino
+
+IViaje <|.. HojaDeRuta
+IViaje <|.. Viaje
+
+Viaje o-- Paquete
+Viaje --> Origen
+Viaje --> Destino
+Camion --> ModeloCamion
+Camion --> HojaDeRuta
+
+@enduml
+
